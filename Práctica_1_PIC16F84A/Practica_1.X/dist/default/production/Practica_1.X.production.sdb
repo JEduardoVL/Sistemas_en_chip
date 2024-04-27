@@ -1,0 +1,192 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F84A ]
+[d frameptr 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\atoi.c
+[v _atoi atoi `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"70 C:\Users\eduar\OneDrive\Escritorio\Practica_1.X\practica_1_PIC16F84A.c
+[v _main main `(v  1 e 1 0 ]
+"146
+[v _LCD_command LCD_command `(v  1 e 1 0 ]
+"155
+[v _LCD_data LCD_data `(v  1 e 1 0 ]
+"164
+[v _LCD_init LCD_init `(v  1 e 1 0 ]
+"176
+[v _LCD_clear LCD_clear `(v  1 e 1 0 ]
+"181
+[v _LCD_setCursor LCD_setCursor `(v  1 e 1 0 ]
+"187
+[v _LCD_print LCD_print `(v  1 e 1 0 ]
+"195
+[v _Keyboard_init Keyboard_init `(v  1 e 1 0 ]
+"203
+[v _Read_Keypad Read_Keypad `(uc  1 e 1 0 ]
+"236
+[v _Prepare_LCD_Pins Prepare_LCD_Pins `(v  1 e 1 0 ]
+"241
+[v _Prepare_Keypad_Pins Prepare_Keypad_Pins `(v  1 e 1 0 ]
+[s S89 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+]
+"180 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f84a.h
+[u S95 . 1 `S89 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES95  1 e 1 @5 ]
+"210
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"454
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+[s S74 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+]
+"468
+[u S80 . 1 `S74 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES80  1 e 1 @133 ]
+"498
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"660
+[v _RA0 RA0 `VEb  1 e 0 @40 ]
+"663
+[v _RA1 RA1 `VEb  1 e 0 @41 ]
+"666
+[v _RA2 RA2 `VEb  1 e 0 @42 ]
+"39 C:\Users\eduar\OneDrive\Escritorio\Practica_1.X\practica_1_PIC16F84A.c
+[v _teclas teclas `DC[4][4]uc  1 e 16 0 ]
+"46
+[v _cursorPosition cursorPosition `uc  1 e 1 0 ]
+"49
+[v _asciiMode asciiMode `uc  1 e 1 0 ]
+"50
+[v _asciiValue asciiValue `[4]uc  1 e 4 0 ]
+"51
+[v _asciiDigits asciiDigits `uc  1 e 1 0 ]
+"70
+[v _main main `(v  1 e 1 0 ]
+{
+"86
+[v main@i i `uc  1 a 1 35 ]
+"124
+[v main@i_122 i `uc  1 a 1 37 ]
+"115
+[v main@i_121 i `uc  1 a 1 36 ]
+"83
+[v main@asciiCode asciiCode `i  1 a 2 33 ]
+"78
+[v main@key key `uc  1 a 1 38 ]
+"73
+[v main@displayString displayString `[17]uc  1 a 17 16 ]
+"74
+[v main@charCount charCount `uc  1 a 1 39 ]
+"142
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\atoi.c
+[v _atoi atoi `(i  1 e 2 0 ]
+{
+[v atoi@s s `*.4DCuc  1 a 1 wreg ]
+"7
+[v atoi@n n `i  1 a 2 11 ]
+"8
+[v atoi@neg neg `a  1 a 1 10 ]
+"5
+[v atoi@s s `*.4DCuc  1 a 1 wreg ]
+"7
+[v atoi@s s `*.4DCuc  1 a 1 13 ]
+"24
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"203 C:\Users\eduar\OneDrive\Escritorio\Practica_1.X\practica_1_PIC16F84A.c
+[v _Read_Keypad Read_Keypad `(uc  1 e 1 0 ]
+{
+"213
+[v Read_Keypad@col col `i  1 a 2 4 ]
+"204
+[v Read_Keypad@row row `i  1 a 2 2 ]
+"232
+} 0
+"236
+[v _Prepare_LCD_Pins Prepare_LCD_Pins `(v  1 e 1 0 ]
+{
+"239
+} 0
+"241
+[v _Prepare_Keypad_Pins Prepare_Keypad_Pins `(v  1 e 1 0 ]
+{
+"245
+} 0
+"181
+[v _LCD_setCursor LCD_setCursor `(v  1 e 1 0 ]
+{
+[v LCD_setCursor@row row `uc  1 a 1 wreg ]
+"182
+[v LCD_setCursor@position position `uc  1 a 1 7 ]
+"181
+[v LCD_setCursor@row row `uc  1 a 1 wreg ]
+[v LCD_setCursor@column column `uc  1 p 1 3 ]
+[v LCD_setCursor@row row `uc  1 a 1 4 ]
+"185
+} 0
+"187
+[v _LCD_print LCD_print `(v  1 e 1 0 ]
+{
+[v LCD_print@string string `*.4DCuc  1 a 1 wreg ]
+[v LCD_print@string string `*.4DCuc  1 a 1 wreg ]
+[v LCD_print@string string `*.4DCuc  1 a 1 3 ]
+"191
+} 0
+"155
+[v _LCD_data LCD_data `(v  1 e 1 0 ]
+{
+[v LCD_data@data data `uc  1 a 1 wreg ]
+[v LCD_data@data data `uc  1 a 1 wreg ]
+[v LCD_data@data data `uc  1 a 1 2 ]
+"162
+} 0
+"164
+[v _LCD_init LCD_init `(v  1 e 1 0 ]
+{
+"173
+} 0
+"176
+[v _LCD_clear LCD_clear `(v  1 e 1 0 ]
+{
+"179
+} 0
+"146
+[v _LCD_command LCD_command `(v  1 e 1 0 ]
+{
+[v LCD_command@command command `uc  1 a 1 wreg ]
+[v LCD_command@command command `uc  1 a 1 wreg ]
+[v LCD_command@command command `uc  1 a 1 2 ]
+"153
+} 0
+"195
+[v _Keyboard_init Keyboard_init `(v  1 e 1 0 ]
+{
+"200
+} 0
