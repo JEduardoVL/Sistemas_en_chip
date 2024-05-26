@@ -1,0 +1,452 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F873A ]
+[d frameptr 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+[v i1___lldiv __lldiv `(ul  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\atoi.c
+[v _atoi atoi `(i  1 e 2 0 ]
+"3 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\memset.c
+[v _memset memset `(*.4v  1 e 1 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"94 C:\Users\eduar\OneDrive\Escritorio\ENV_ESCLAVO.X\env_esclavo.c
+[v _main main `(v  1 e 1 0 ]
+"116
+[v _Handle_Keypress Handle_Keypress `(v  1 e 1 0 ]
+"203
+[v _I2C_Slave_Init I2C_Slave_Init `(v  1 e 1 0 ]
+"220
+[v _ISR ISR `II(v  1 e 1 0 ]
+"264
+[v _LCD_command LCD_command `(v  1 e 1 0 ]
+[v i1_LCD_command LCD_command `(v  1 e 1 0 ]
+"273
+[v _LCD_data LCD_data `(v  1 e 1 0 ]
+[v i1_LCD_data LCD_data `(v  1 e 1 0 ]
+"282
+[v _LCD_init LCD_init `(v  1 e 1 0 ]
+"306
+[v _LCD_clear LCD_clear `(v  1 e 1 0 ]
+[v i1_LCD_clear LCD_clear `(v  1 e 1 0 ]
+"311
+[v _LCD_setCursor LCD_setCursor `(v  1 e 1 0 ]
+[v i1_LCD_setCursor LCD_setCursor `(v  1 e 1 0 ]
+"317
+[v _LCD_print LCD_print `(v  1 e 1 0 ]
+[v i1_LCD_print LCD_print `(v  1 e 1 0 ]
+"324
+[v _Prepare_LCD_Pins Prepare_LCD_Pins `(v  1 e 1 0 ]
+"336
+[v _Read_Keypad Read_Keypad `(uc  1 e 1 0 ]
+"368
+[v _Prepare_Keypad_Pins Prepare_Keypad_Pins `(v  1 e 1 0 ]
+"376
+[v _Send_Message_To_Master Send_Message_To_Master `(v  1 e 1 0 ]
+"395
+[v _I2C_Master_Init I2C_Master_Init `(v  1 e 1 0 ]
+[v i1_I2C_Master_Init I2C_Master_Init `(v  1 e 1 0 ]
+"405
+[v _I2C_Master_Start I2C_Master_Start `(v  1 e 1 0 ]
+"410
+[v _I2C_Master_Stop I2C_Master_Stop `(v  1 e 1 0 ]
+"415
+[v _I2C_Master_Write I2C_Master_Write `(v  1 e 1 0 ]
+"420
+[v _I2C_Master_Wait I2C_Master_Wait `(v  1 e 1 0 ]
+[s S240 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+]
+"181 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f873a.h
+[u S247 . 1 `S240 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES247  1 e 1 @5 ]
+"216
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"708
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @19 ]
+"715
+[v _SSPCON SSPCON `VEuc  1 e 1 @20 ]
+[s S96 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"735
+[s S102 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[u S107 . 1 `S96 1 . 1 0 `S102 1 . 1 0 ]
+[v _SSPCONbits SSPCONbits `VES107  1 e 1 @20 ]
+"1225
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+[s S223 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+]
+"1240
+[u S230 . 1 `S223 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES230  1 e 1 @133 ]
+"1275
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1529
+[v _SSPCON2 SSPCON2 `VEuc  1 e 1 @145 ]
+"1598
+[v _SSPADD SSPADD `VEuc  1 e 1 @147 ]
+"1605
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @148 ]
+[s S122 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+"1659
+[s S131 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D 1 0 :1:5 
+]
+[s S136 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 I2C_READ 1 0 :1:2 
+`uc 1 I2C_START 1 0 :1:3 
+`uc 1 I2C_STOP 1 0 :1:4 
+`uc 1 I2C_DATA 1 0 :1:5 
+]
+[s S142 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA 1 0 :1:5 
+]
+[s S147 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS 1 0 :1:5 
+]
+[s S152 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A 1 0 :1:5 
+]
+[s S157 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 DATA_ADDRESS 1 0 :1:5 
+]
+[u S162 . 1 `S122 1 . 1 0 `S131 1 . 1 0 `S136 1 . 1 0 `S142 1 . 1 0 `S147 1 . 1 0 `S152 1 . 1 0 `S157 1 . 1 0 ]
+[v _SSPSTATbits SSPSTATbits `VES162  1 e 1 @148 ]
+"2004
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"2348
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"2399
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"2402
+[v _PEN PEN `VEb  1 e 0 @1162 ]
+"2417
+[v _RA0 RA0 `VEb  1 e 0 @40 ]
+"2420
+[v _RA1 RA1 `VEb  1 e 0 @41 ]
+"2423
+[v _RA2 RA2 `VEb  1 e 0 @42 ]
+"2534
+[v _SEN SEN `VEb  1 e 0 @1160 ]
+"2549
+[v _SSPIE SSPIE `VEb  1 e 0 @1123 ]
+"2552
+[v _SSPIF SSPIF `VEb  1 e 0 @99 ]
+"2696
+[v _TRISC3 TRISC3 `VEb  1 e 0 @1083 ]
+"2699
+[v _TRISC4 TRISC4 `VEb  1 e 0 @1084 ]
+"48 C:\Users\eduar\OneDrive\Escritorio\ENV_ESCLAVO.X\env_esclavo.c
+[v _i2c_role i2c_role `VEuc  1 e 1 0 ]
+"53
+[v _asciiMode asciiMode `uc  1 e 1 0 ]
+"54
+[v _asciiValue asciiValue `[4]uc  1 e 4 0 ]
+"55
+[v _asciiDigits asciiDigits `uc  1 e 1 0 ]
+"56
+[v _cursorPosition cursorPosition `uc  1 e 1 0 ]
+"59
+[v _teclas teclas `DC[4][4]uc  1 e 16 0 ]
+"89
+[v _displayString displayString `[16]uc  1 e 16 0 ]
+"90
+[v _charCount charCount `i  1 e 2 0 ]
+"91
+[v _allow_input allow_input `VEa  1 e 1 0 ]
+"94
+[v _main main `(v  1 e 1 0 ]
+{
+"107
+[v main@key key `uc  1 a 1 28 ]
+"114
+} 0
+"336
+[v _Read_Keypad Read_Keypad `(uc  1 e 1 0 ]
+{
+"346
+[v Read_Keypad@col col `i  1 a 2 2 ]
+"337
+[v Read_Keypad@row row `i  1 a 2 0 ]
+"365
+} 0
+"368
+[v _Prepare_Keypad_Pins Prepare_Keypad_Pins `(v  1 e 1 0 ]
+{
+"372
+} 0
+"116
+[v _Handle_Keypress Handle_Keypress `(v  1 e 1 0 ]
+{
+[v Handle_Keypress@key key `uc  1 a 1 wreg ]
+"126
+[v Handle_Keypress@i i `uc  1 a 1 25 ]
+"184
+[v Handle_Keypress@i_304 i `i  1 a 2 23 ]
+"155
+[v Handle_Keypress@i_299 i `uc  1 a 1 26 ]
+"123
+[v Handle_Keypress@asciiCode asciiCode `i  1 a 2 21 ]
+"116
+[v Handle_Keypress@key key `uc  1 a 1 wreg ]
+[v Handle_Keypress@key key `uc  1 a 1 27 ]
+"199
+} 0
+"3 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\memset.c
+[v _memset memset `(*.4v  1 e 1 0 ]
+{
+[v memset@dest dest `*.4v  1 a 1 wreg ]
+"5
+[v memset@p p `*.4uc  1 a 1 1 ]
+"3
+[v memset@dest dest `*.4v  1 a 1 wreg ]
+[v memset@c c `i  1 p 2 30 ]
+[v memset@n n `ui  1 p 2 32 ]
+"5
+[v memset@dest dest `*.4v  1 a 1 0 ]
+"10
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\atoi.c
+[v _atoi atoi `(i  1 e 2 0 ]
+{
+[v atoi@s s `*.4DCuc  1 a 1 wreg ]
+"7
+[v atoi@n n `i  1 a 2 7 ]
+"8
+[v atoi@neg neg `a  1 a 1 6 ]
+"5
+[v atoi@s s `*.4DCuc  1 a 1 wreg ]
+"7
+[v atoi@s s `*.4DCuc  1 a 1 9 ]
+"24
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 0 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 30 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 32 ]
+"53
+} 0
+"376 C:\Users\eduar\OneDrive\Escritorio\ENV_ESCLAVO.X\env_esclavo.c
+[v _Send_Message_To_Master Send_Message_To_Master `(v  1 e 1 0 ]
+{
+[v Send_Message_To_Master@message message `*.4uc  1 a 1 wreg ]
+[v Send_Message_To_Master@message message `*.4uc  1 a 1 wreg ]
+"378
+[v Send_Message_To_Master@message message `*.4uc  1 a 1 17 ]
+"392
+} 0
+"203
+[v _I2C_Slave_Init I2C_Slave_Init `(v  1 e 1 0 ]
+{
+[v I2C_Slave_Init@address address `uc  1 a 1 wreg ]
+[v I2C_Slave_Init@address address `uc  1 a 1 wreg ]
+[v I2C_Slave_Init@address address `uc  1 a 1 30 ]
+"212
+} 0
+"415
+[v _I2C_Master_Write I2C_Master_Write `(v  1 e 1 0 ]
+{
+[v I2C_Master_Write@data data `uc  1 a 1 wreg ]
+[v I2C_Master_Write@data data `uc  1 a 1 wreg ]
+[v I2C_Master_Write@data data `uc  1 a 1 30 ]
+"418
+} 0
+"410
+[v _I2C_Master_Stop I2C_Master_Stop `(v  1 e 1 0 ]
+{
+"413
+} 0
+"405
+[v _I2C_Master_Start I2C_Master_Start `(v  1 e 1 0 ]
+{
+"408
+} 0
+"420
+[v _I2C_Master_Wait I2C_Master_Wait `(v  1 e 1 0 ]
+{
+"422
+} 0
+"395
+[v _I2C_Master_Init I2C_Master_Init `(v  1 e 1 0 ]
+{
+[v I2C_Master_Init@c c `DCul  1 p 4 31 ]
+"402
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"10
+[v ___lldiv@quotient quotient `ul  1 a 4 8 ]
+"11
+[v ___lldiv@counter counter `uc  1 a 1 12 ]
+"5
+[v ___lldiv@divisor divisor `ul  1 p 4 0 ]
+[v ___lldiv@dividend dividend `ul  1 p 4 4 ]
+"30
+} 0
+"324 C:\Users\eduar\OneDrive\Escritorio\ENV_ESCLAVO.X\env_esclavo.c
+[v _Prepare_LCD_Pins Prepare_LCD_Pins `(v  1 e 1 0 ]
+{
+"327
+} 0
+"311
+[v _LCD_setCursor LCD_setCursor `(v  1 e 1 0 ]
+{
+[v LCD_setCursor@row row `uc  1 a 1 wreg ]
+"312
+[v LCD_setCursor@position position `uc  1 a 1 3 ]
+"311
+[v LCD_setCursor@row row `uc  1 a 1 wreg ]
+[v LCD_setCursor@column column `uc  1 p 1 33 ]
+[v LCD_setCursor@row row `uc  1 a 1 0 ]
+"315
+} 0
+"317
+[v _LCD_print LCD_print `(v  1 e 1 0 ]
+{
+[v LCD_print@string string `*.26DCuc  1 p 2 33 ]
+"321
+} 0
+"273
+[v _LCD_data LCD_data `(v  1 e 1 0 ]
+{
+[v LCD_data@data data `uc  1 a 1 wreg ]
+[v LCD_data@data data `uc  1 a 1 wreg ]
+[v LCD_data@data data `uc  1 a 1 32 ]
+"280
+} 0
+"282
+[v _LCD_init LCD_init `(v  1 e 1 0 ]
+{
+"303
+} 0
+"306
+[v _LCD_clear LCD_clear `(v  1 e 1 0 ]
+{
+"309
+} 0
+"264
+[v _LCD_command LCD_command `(v  1 e 1 0 ]
+{
+[v LCD_command@command command `uc  1 a 1 wreg ]
+[v LCD_command@command command `uc  1 a 1 wreg ]
+[v LCD_command@command command `uc  1 a 1 32 ]
+"271
+} 0
+"220
+[v _ISR ISR `II(v  1 e 1 0 ]
+{
+"225
+[v ISR@temp temp `uc  1 a 1 29 ]
+"221
+[v ISR@receiveBuffer receiveBuffer `[16]uc  1 s 16 receiveBuffer ]
+"222
+[v ISR@index index `i  1 s 2 index ]
+"259
+} 0
+"311
+[v i1_LCD_setCursor LCD_setCursor `(v  1 e 1 0 ]
+{
+[v i1LCD_setCursor@row row `uc  1 a 1 wreg ]
+"312
+[v i1LCD_setCursor@position position `uc  1 a 1 7 ]
+"311
+[v i1LCD_setCursor@row row `uc  1 a 1 wreg ]
+[v i1LCD_setCursor@column column `uc  1 p 1 3 ]
+[v i1LCD_setCursor@row row `uc  1 a 1 4 ]
+"315
+} 0
+"317
+[v i1_LCD_print LCD_print `(v  1 e 1 0 ]
+{
+[v i1LCD_print@string string `*.26DCuc  1 p 2 3 ]
+"321
+} 0
+"273
+[v i1_LCD_data LCD_data `(v  1 e 1 0 ]
+{
+[v i1LCD_data@data data `uc  1 a 1 wreg ]
+[v i1LCD_data@data data `uc  1 a 1 wreg ]
+[v i1LCD_data@data data `uc  1 a 1 2 ]
+"280
+} 0
+"306
+[v i1_LCD_clear LCD_clear `(v  1 e 1 0 ]
+{
+"309
+} 0
+"264
+[v i1_LCD_command LCD_command `(v  1 e 1 0 ]
+{
+[v i1LCD_command@command command `uc  1 a 1 wreg ]
+[v i1LCD_command@command command `uc  1 a 1 wreg ]
+[v i1LCD_command@command command `uc  1 a 1 2 ]
+"271
+} 0
+"395
+[v i1_I2C_Master_Init I2C_Master_Init `(v  1 e 1 0 ]
+{
+[v i1I2C_Master_Init@c c `DCul  1 p 4 14 ]
+"402
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\__lldiv.c
+[v i1___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"10
+[v i1___lldiv@quotient quotient `ul  1 a 4 9 ]
+"11
+[v i1___lldiv@counter counter `uc  1 a 1 13 ]
+"5
+[v i1___lldiv@divisor divisor `ul  1 p 4 0 ]
+[v i1___lldiv@dividend dividend `ul  1 p 4 4 ]
+"30
+} 0
